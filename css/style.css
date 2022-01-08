@@ -50,7 +50,7 @@ li {
 .btn-1 {
     background-color: #3882F6;
     padding: 1em 3em;
-    border-radius: 5%;
+    border-radius: 5%; 
     border-color: #3882F6;
     color: white;
     font-weight: 900;
@@ -65,4 +65,103 @@ li {
     flex-basis: 60%;
     display: flex;
     justify-content: flex-end;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.section2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-list-item > * {
+    flex: 1 1 auto;
+    width: 150px;
+}
+
+.flex-list-item img {
+    border: 5px solid #3882F6;
+    border-radius: 1em;
+}
+
+.section3 {
+    padding: 20px;
+    height: 300px;
+    background-color: #E5E7EB;
+}
+
+.flex-quote {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+.thor {
+    align-self: flex-end;
+}
+
+.action-call {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action-call > * {
+    background-color: #3882F6;
+    border-radius: 0.5em;
+    color: white;
+    padding: 3em 4em;
+}
+
+.action-call-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.btn-2 {
+    padding: 0.75em 2em;
+    flex-shrink: 0;
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 0.9em;
+    align-self: baseline;
+}
+
+.action-call-flex p {
+    align-self: baseline;
+}
+
+footer {
+    background-color: #1F2937;;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
